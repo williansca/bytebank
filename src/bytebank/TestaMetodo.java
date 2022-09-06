@@ -22,8 +22,8 @@ public class TestaMetodo {
 			System.out.println("Faltou dinheiro");
 		}
 
-		System.out.println(contaDaMarcela.saldo);
-		System.out.println(contaDoPaulo.saldo);
+		System.out.println("Saldo conta Marcela " + contaDaMarcela.saldo);
+		System.out.println("Saldo conta Paulo " + contaDoPaulo.saldo);
 	}
 
 }
