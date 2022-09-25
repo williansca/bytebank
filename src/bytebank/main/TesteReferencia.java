@@ -1,4 +1,6 @@
-package bytebank;
+package bytebank.main;
+
+
 
 public class TesteReferencia {
 	

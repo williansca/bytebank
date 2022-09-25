@@ -1,4 +1,6 @@
-package bytebank;
+package bytebank.main;
+
+
 
 //composicao de objetos
 public class Conta {
