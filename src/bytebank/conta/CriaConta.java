@@ -1,5 +1,4 @@
-package bytebank.main;
-
+package bytebank.conta;
 
 
 public class CriaConta {
