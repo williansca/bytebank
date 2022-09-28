@@ -11,8 +11,7 @@ public class TestReferencias {
 		String nome = g1.getNome();
 		System.out.println(nome);
 		
-		Funcionario f = new Funcionario();
-		f.setSalario(2000.0);
+		
 		
 		EditorVideo ev = new EditorVideo();
 		ev.setSalario(2500.0);
@@ -23,7 +22,6 @@ public class TestReferencias {
 		ControleBonificacao controle = new ControleBonificacao();
 		controle.registra(g1);
 		controle.registra(ev);
-		controle.registra(f);
 		controle.registra(d);
 		
 		

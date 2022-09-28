@@ -1,23 +1,22 @@
 package bytebank.herdado;
 
-
-public class Funcionario {
+//não pode instanciar essa classe, pq é abstract
+public abstract class Funcionario {
 
 	private String nome;
 	private String cpf;
 	private double salario;
-	
-	//public for extended classes
-	//protected double salario;
 
-	//construtor vazio
-	public Funcionario() {
+	// public for extended classes
+	// protected double salario;
 
-	}
+	// construtor vazio
+//	public Funcionario() {
+//
+//	}
 
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+	// abstract não tem corpo, não há implementação, obriga subclasses a ter metodo
+	public abstract double getBonificacao();
 
 	public void setNome(String nome) {
 		this.nome = nome;

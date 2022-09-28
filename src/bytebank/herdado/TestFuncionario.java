@@ -5,7 +5,7 @@ public class TestFuncionario {
 
 	public static void main(String[] args) {
 
-		Funcionario nico = new Funcionario();
+		Funcionario nico = new EditorVideo();
 		
 		nico.setNome("Nico");
 		nico.setCpf("111.111.111-11");
