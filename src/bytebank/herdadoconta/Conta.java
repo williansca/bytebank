@@ -1,9 +1,9 @@
 package bytebank.herdadoconta;
 
-
 //composicao de objetos
-public class Conta {
+public abstract class Conta {
 
+	// protected will be available to subclasses
 	private double saldo;
 
 	private int agencia;
@@ -28,10 +28,7 @@ public class Conta {
 		System.out.println("o total de contas e " + Conta.total);
 	}
 
-	public void deposita(double valor) {
-		// this to the acc that invoked the method
-		this.saldo += valor;
-	}
+	public abstract void deposita(double valor);
 
 	public boolean sacar(double valor) {
 		if (this.saldo >= valor) {
@@ -55,6 +52,10 @@ public class Conta {
 
 	public double getSaldo() {
 		return saldo;
+	}
+
+	public void setsaldo(double saldo) {
+		this.saldo = saldo;
 	}
 
 	public int getNumero() {

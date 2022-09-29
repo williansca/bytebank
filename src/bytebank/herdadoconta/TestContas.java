@@ -15,5 +15,11 @@ public class TestContas {
 
 		System.out.println("CC: " + String.format("%.2f", cc.getSaldo()));
 		System.out.println("CP: " + String.format("%.2f", cp.getSaldo()));
+		
+		cc.sacar(10.0);
+		System.out.println("CC: " + String.format("%.2f", cc.getSaldo()));
+		
+		cp.sacar(10.0);
+		System.out.println("CP: " + String.format("%.2f", cp.getSaldo()));
 	}
 }
