@@ -6,8 +6,12 @@ public class TesteSistema {
 		Gerente g = new Gerente();
 		g.setSenha(2222);
 		
+		Administrador ad = new Administrador();
+		ad.setSenha(2222);
+		
 		SistemaInterno si = new SistemaInterno();
 		si.autentica(g);
+		si.autentica(ad);
 		
 	}
 
