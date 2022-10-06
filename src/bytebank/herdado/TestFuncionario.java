@@ -1,9 +1,12 @@
-package bytebank.herdado;
+ package bytebank.herdado;
 
 
 public class TestFuncionario {
 
 	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		
 
 		Funcionario nico = new EditorVideo();
 		

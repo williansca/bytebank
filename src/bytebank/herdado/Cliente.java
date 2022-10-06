@@ -1,11 +1,25 @@
 package bytebank.herdado;
 
-public class Cliente extends FuncionarioAutenticavel {
+//class implements an interface
+
+public class Cliente implements Autenticavel {
+
+	private AutenticacaoUtil autenticador;
+
+	public Cliente() {
+		this.autenticador = new AutenticacaoUtil();
+	}
 
 	@Override
-	public double getBonificacao() {
-		// TODO Auto-generated method stub
-		return 0;
+	public void setSenha(int senha) {
+		this.autenticador.setSenha(senha);
+
+	}
+
+	@Override
+	public boolean autenticar(int senha) {
+		return this.autenticador.autenticar(senha);
+
 	}
 
 }

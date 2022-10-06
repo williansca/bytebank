@@ -1,11 +1,12 @@
 package bytebank.herdado;
 
-public abstract class FuncionarioAutenticavel extends Funcionario {
+public class AutenticacaoUtil {
 
 	private int senha;
 
 	public void setSenha(int senha) {
 		this.senha = senha;
+
 	}
 
 	public boolean autenticar(int senha) {

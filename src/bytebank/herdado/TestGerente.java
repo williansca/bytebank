@@ -19,6 +19,7 @@ public class TestGerente {
 		g1.setSenha(2222);
 		boolean autenticou = g1.autenticar(2222);
 		System.out.println(autenticou);
+		//System.out.println("Senha escolhida: " + g1.getSenha());
 		
 		System.out.println(g1.getBonificacao());
 

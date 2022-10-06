@@ -15,7 +15,7 @@ public abstract class Funcionario {
 //
 //	}
 
-	// abstract não tem corpo, não há implementação, obriga subclasses a ter metodo
+	// abstract método não tem corpo, não há implementação, obriga subclasses a ter metodo
 	public abstract double getBonificacao();
 
 	public void setNome(String nome) {
