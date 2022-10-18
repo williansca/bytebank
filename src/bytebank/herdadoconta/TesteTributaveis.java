@@ -13,7 +13,7 @@ public class TesteTributaveis {
 		calc.registra(cc);
 		calc.registra(seguro);
 		
-		System.err.println(calc.getTotalImposto());
+		System.out.println(calc.getTotalImposto());
 	}
 
 }
